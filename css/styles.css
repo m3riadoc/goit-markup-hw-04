@@ -314,7 +314,8 @@ img {
   justify-content: center;
 }
 
-.social-item:hover.social-item:focus {
+.social-item:hover,
+.social-item:focus {
   background-color: #404bbf;
 }
 
@@ -381,6 +382,7 @@ img {
 .client-item:hover,
 .client-item:focus {
   border-color: #404bbf;
+  color: #404bbf;
 }
 
 .client-item-svg {
